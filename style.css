@@ -67,9 +67,26 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 128px;
+    gap: 120px;
     padding: 24px;
-    margin: 120px;
+    margin: 64px 256px;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.signup button {
+    color: white;
+    background-color: #3882F6;
+    border: white;
+    outline:1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    width: 120px;
+}
+
+#headline_signup, #text_signup {
+    color: white;
 }
 
 #author {
