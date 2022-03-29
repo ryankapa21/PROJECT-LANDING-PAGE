@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 ul {
@@ -49,15 +50,17 @@ a {
     align-items: center;
 }
 
+.signup { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+}
+
 #author {
     align-self: flex-end;
     padding-bottom: 64px;
     padding-right: 512px;
-}
-
-.card p {
-    text-align: center;
-    font-size: 18px;
 }
 
 #header_links {
@@ -76,4 +79,19 @@ a {
 #page_start_text button{
     width: 150px;
     
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.signup #text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.signup #text p, h2{ 
+    margin: 0;
 }
