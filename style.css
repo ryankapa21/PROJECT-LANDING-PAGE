@@ -31,6 +31,23 @@ a {
     align-items: center;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+}
+
 #header_links {
     display: flex;
     gap: 12px;
